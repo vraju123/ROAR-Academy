@@ -32,6 +32,5 @@ try:
 except IOError:
     print('IO Error! Please check valid file names and paths')
     exit
-finally:
     source_handle.close()
     hashtag_handle.close()

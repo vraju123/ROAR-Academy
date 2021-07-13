@@ -16,7 +16,7 @@ sig = sigmoid(x)
 fig = plt.figure()
 ax1 = fig.add_subplot(1, 3, 1)
 # Plot without customization
-plt.plot(x,sig, linewidth = 3)
+plt.plot(x,sig,'y' ,linewidth = 3)
 
 ax2 = fig.add_subplot(1, 3, 2)
 # Move left y-axis and bottim x-axis to centre
